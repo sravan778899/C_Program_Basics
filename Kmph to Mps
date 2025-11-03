@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int speed;
+    scanf("%d", &speed);
+
+    double mps = speed * (1000.0 / 3600.0);  
+
+    printf("%.2f", mps);  
+
+    return 0;
+}
