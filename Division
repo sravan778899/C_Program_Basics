@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2;
+    scanf("%d %d", &num1, &num2);  // Read two integers
+
+    int result = num1 / num2;      // Integer division
+
+    printf("%d", result);          // Print the quotient
+
+    return 0;
+}
