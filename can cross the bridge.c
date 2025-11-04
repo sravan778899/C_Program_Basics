@@ -2,15 +2,15 @@
 
 int main()
 {
-    // Constrained code start
+    
     int x, y, z, r;
 
     scanf("%d %d %d", &x, &y, &z);
 
-    int extra = z - y;  // Missing '=' sign fixed
-    int mangoes = extra / x;  // Divide properly
+    int extra = z - y; 
+    int mangoes = extra / x;  
 
-    // Constrained code ends here
+    
 
     printf("%d", mangoes);
 
