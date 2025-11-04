@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int base, height;
+    double area;
+
+    
+    scanf("%d %d", &base, &height);
+
+    
+    area = 0.5 * base * height;
+
+
+    printf("%.0lf", area);
+
+    return 0;
+}
